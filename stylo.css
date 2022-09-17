@@ -32,3 +32,33 @@ section#telefone{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+section#redessociais {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: right;
+
+}
+section#redessociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.623);
+    transform: translate(-3px, -3px);
+    box-shadow: 4px 4 px 10px rgba(0, 0, 0, 0.429);
+    transition-duration: 0.3s;
+}
+
+section#redessociais >a >img {
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.391);
+    box-sizing: border-box;
+}
+
+iframe#tela {
+    position: relative;
+    top: 81px;
+    left: 23px;
+    width: 266px;
+    height: 470px;
+}
