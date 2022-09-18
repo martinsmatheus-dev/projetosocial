@@ -11,18 +11,18 @@ html, body {
     width: 100vw;
     background-color: black;
 }
-body{
+section.boxsocial{
     background: url(./pacote/imagens/fundo-madeira.jpg) no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
 }
 
-main {
+section {
     height: 100vh;
     position: relative;
 }
 
-section#telefone{
+div#telefone{
     height: 627px;
     width: 311px;
     background: url(./pacote/imagens/frame-iphone.png) no-repeat;
@@ -32,21 +32,21 @@ section#telefone{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-section#redessociais {
+div#redessociais {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     text-align: right;
 
 }
-section#redessociais img:hover {
+div#redessociais img:hover {
     border: 2px solid rgba(255, 255, 255, 0.623);
     transform: translate(-3px, -3px);
     box-shadow: 4px 4 px 10px rgba(0, 0, 0, 0.429);
     transition-duration: 0.3s;
 }
 
-section#redessociais >a >img {
+div#redessociais >a >img {
     width: 60px;
     height: 60px;
     margin: 20px;
